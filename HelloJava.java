@@ -3,6 +3,6 @@
 class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
-        System.out.println("This is auto triggered by commit!");
+        System.out.println("This is auto triggered by commit");
     }
 }
