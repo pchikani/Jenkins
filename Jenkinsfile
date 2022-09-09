@@ -23,5 +23,12 @@ pipeline {
                 sleep 120
             }
         }
+        stage('Finish'){
+            steps {
+                echo 'Last job in the pipeline to confirm completion'
+                sh 'echo "Pipeline is complete"'
+                sleep 120
+            }
+        }
     }
 }
