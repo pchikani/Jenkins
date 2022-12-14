@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checkout from GITHUB'
-                git branch: 'main', changelog: false, credentialsId: '115456c2-7b9d-4909-96cf-a69c56e8b086', poll: false, url: 'https://github.com/pchikani/Jenkins.git'
+                git branch: 'main', changelog: false, credentialsId: 'xxxxxxx', poll: false, url: 'https://github.com/pchikani/Jenkins.git'
                 sleep 120 
             }
         }
